@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- 外部样式表 -->
+    <title>我的个人博客</title>
+    <style>
+        /* 简单样式示例 */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #0078d7;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 40px;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 20px;
+            font-weight: 300;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem 20px;
+        }
+        .article-container {
+            width: 100%;
+            max-width: 900px;
+            margin-bottom: 30px;
+        }
+        article {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        article h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        footer {
+            background: #0078d7;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        /* 联系我部分居中 */
+        .contact-container {
+            background: #fff;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .contact-container h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .contact-container p {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .contact-btn {
+            display: inline-block;
+            background: #0078d7;
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 50px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .contact-btn:hover {
+            background: #005fa3;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <header>
+        <h1>My Personal Blog</h1>
+        <p>分享生活，记录美好</p>
+    </header>
+
+    <main>
+        <div class="article-container">
+            <article>
+                <h2>今日随笔</h2>
+                <p>今天突然想到，生活就像一场没有脚本的电影，处处充满着未知与惊喜。那些看似平淡的日常，或许在不经意间就藏着触动心灵的瞬间。我们总是在忙碌中忽略了身边的美好，以后要多留意生活里的小确幸，把它们都一一珍藏起来。</p>
+            </article>
+
+            <article>
+                <h2>旅行记忆</h2>
+                <p>旅行记忆：西安之行
+
+西安，作为中国历史文化名城，拥有着深厚的历史底蕴和独特的魅力。我曾经有幸到过这座城市，那是一次令人难以忘怀的旅行。
+
+记得那时是秋天，空气清新，阳光透过稀疏的云层洒在大地上，温暖而不刺眼。我和朋友们一同踏上了前往西安的旅程。我们乘坐高铁，在几个小时的车程后，终于抵达了这座古老而又现代的城市。
+
+第一站我们来到了著名的兵马俑。那一刻，站在兵马俑的展厅内，目睹着那一排排栩栩如生的陶俑，仿佛穿越时空，回到了几千年前的秦朝。每一尊兵马俑都表情各异，姿态各自不同，仿佛在向我们讲述着古代战士的英勇与忠诚。尽管这些陶俑已经历了数千年的风雨，但它们依然无比生动，见证了历史的辉煌与沧桑。
+
+接下来，我们去了大雁塔。站在大雁塔下，抬头望去，那座屹立千年的古塔在阳光下显得格外雄伟。大雁塔不仅是佛教文化的重要象征，也是西安这座城市的标志之一。我们在塔前的广场上漫步，感受着古代文明的气息，仿佛历史与现实在这里交织。
+
+西安的美食也令人难以忘怀。我们品尝了地道的羊肉泡馍，香气扑鼻的肉夹馍，还有酸辣可口的凉皮。每一口都充满了浓郁的地方特色，让人一吃成主顾。特别是在回民街，那种地道的西安味道，让我感受到了这座城市的温暖与热情。
+
+虽然我的西安之行时间并不长，但它给我留下了深刻的印象。这座古老的城市，无论是历史遗迹，还是人文风情，都深深吸引着我。每当回想起西安的那段时光，我总是感到无比的温暖与怀念。希望以后还能有机会，再次踏上这片土地，细细品味这座城市的韵味,当然,是假的了,我去了西安，没去大雁塔那里，只待了一半回,然后再也没去过</p>
+            </article>
+        </div>
+    </main>
+
+    <!-- 联系我部分，居中显示 -->
+    <div class="contact-container">
+        <h2>与我取得联系</h2>
+        <p>如果您有任何问题或合作意向，欢迎通过以下方式与我联系。</p>
+        <a href="mailto:3657990021@qq.com" class="contact-btn">发送邮件</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 版权所有 | 由我设计与维护</p>
+    </footer>
+</body>
+</html>
