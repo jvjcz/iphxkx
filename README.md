@@ -48,7 +48,7 @@
 
 安装步骤 
 1.克隆本项目代码库至本地： git clone https://github.com/jvjcz/iphxkx.git
-2.进入项目目录： : cd iphxkx
+2.进入项目目录： cd iphxkx
 3.直接在浏览器中打开 index.html 文件，即 可尽情浏览个人博客。
 
 联系方式
